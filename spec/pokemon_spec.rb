@@ -7,10 +7,6 @@ describe Squirtle do
     it "sets the initial HP" do
       expect(squirtle.hp).to eq(100)
     end
-
-    it "sets the type" do
-      expect(squirtle.type).to eq("water")
-    end
   end
 
   describe "#attack" do
@@ -79,10 +75,6 @@ describe Bulbasaur do
     it "sets the initial HP" do
       expect(bulbasaur.hp).to eq(100)
     end
-
-    it "sets the type" do
-      expect(bulbasaur.type).to eq("plant")
-    end
   end
 
   describe "#attack" do
@@ -150,10 +142,6 @@ describe Charmander do
   describe "#initialize" do
     it "sets the initial HP" do
       expect(charmander.hp).to eq(100)
-    end
-
-    it "sets the type" do
-      expect(charmander.type).to eq("fire")
     end
   end
 
