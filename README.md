@@ -15,6 +15,9 @@ Implement a Pokémon game with three different Pokémons:
 
 - Each Pokémon has 10 points of strength, which means that when they attack another Pokémon, they deal 10 damage points.
 - Each Pokémon has 100 health points.
+- Some Pokémon types do extra damage to other types, see chart below
+
+### Pokemon damage chart
 
 | type  | **Plant** | **Fire** | **Water** |
 | :--- | :---:  | :---:  | :---:   |
