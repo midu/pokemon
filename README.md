@@ -1,6 +1,6 @@
 # The most advanced Pokémon game, ever.
 
-![](http://www.mmogames.com/wp-content/uploads/2014/06/Pokémon-starter-trio.png)
+![](https://sickr.files.wordpress.com/2013/08/pokemon_starters.png)
 
 # Exercise
 
