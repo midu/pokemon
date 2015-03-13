@@ -9,7 +9,7 @@ Implement a Pokémon game with three different Pokémons:
 | Pokémon | ![](http://www.pokemon-online.eu/images/pokemon/x-y/animated/001.gif) |  ![](http://www.pokemon-online.eu/images/pokemon/x-y/animated/004.gif) | ![](http://www.pokemon-online.eu/images/pokemon/x-y/animated/007.gif) |
 | ---     | ---       | ---        | ---      |
 | **Name** | Bulbasaur | Charmander | Squirtle |
-| **Type**    | Plan | Fire | Water |
+| **Type**    | Plant | Fire | Water |
 | **HP** | 100 | 100 | 100 | 100 |
 | **Strength** | 10 | 10 | 10 | 10 |
 
