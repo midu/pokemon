@@ -65,3 +65,7 @@ squirtle.hp
 How would you implement this?
 
 You may run `rspec` in the root of this directory to run a basic test suite that will verify that your game respects the rules.
+
+---
+
+[![Build Status](https://travis-ci.org/midu/pokemon.svg)](https://travis-ci.org/midu/pokemon)
