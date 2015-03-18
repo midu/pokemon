@@ -1,16 +1,24 @@
+### Parent Pokemon class
+
 class Pokemon
 
   attr_reader :hp
 
-  MAX_HP = 100 # let's not hardcode this in #initialize
+  # Let's avoid magic numbers in #initialize
+  # If we ever wanted to individualize these for different Pokemon species, 
+  # we'd move these assignments to the child classes
+  MAX_HP = 100 
+  STRENGTH = 10
 
+  # Simple lookup hash for type weaknesses
   WEAKNESSES = {
     fire: :water,
-    water: :grass,
-    grass: :fire
+    water: :plant,
+    plant: :fire
   }
 
   def self.weak_to?(attacking_type)
+    # TYPE class constant gets set in each Pokemon child class
     attacking_type == WEAKNESSES[self::TYPE]
   end
 
@@ -19,17 +27,23 @@ class Pokemon
   end
 
   def attack(other_poke)
-    other_poke.take_damage(self.class::TYPE)
+    other_poke.take_damage(STRENGTH, self.class::TYPE)
   end
 
   protected
 
-  def take_damage(attacking_type)
-    damage = self.class.weak_to?(attacking_type) ? 20 : 10
-    @hp = [@hp - damage, 0].max
+  # Much cleaner for each Pokemon to deal with its own HP
+  # We pass in STRENGTH because damage depends on attacking Pokemon strength
+  def take_damage(base_damage, attacking_type)
+    damage = self.class.weak_to?(attacking_type) ? 2 * base_damage : base_damage
+    @hp = [@hp - damage, 0].max # Stay positive, dog!
   end
   
 end
+
+
+
+### Specific-Pokemon child classes, we set TYPE here
 
 class Squirtle < Pokemon
   TYPE = :water
@@ -40,5 +54,5 @@ class Charmander < Pokemon
 end
 
 class Bulbasaur < Pokemon
-  TYPE = :grass
+  TYPE = :plant
 end
