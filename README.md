@@ -33,11 +33,10 @@ Implement a Pokémon game with three different Pokémons:
 
 This Pokémon game can be played in Ruby, based on the following instruction:
 
-- Each Pokémon is created by instanciating a class with the type of Pokémon (eg, `squirtle = Squirtle.new`)
+- Each Pokémon is created by instantiating a class with the type of Pokémon (eg, `squirtle = Squirtle.new`)
 - To attack, a Pokémon uses its method `attack` on another Pokémon (eg, `squirtle.attack(bulbasaur)`)
 - You can check how many HP's are left by calling `hp` on a Pokémon (eg, `squirtle.hp`)
-- When a Pokémon is KO, its HP's stay at 0, they can't be negative.
-
+- When a Pokémon is KO'd, its HP's stay at 0, they can't be negative.
 
 ```rb
 squirtle = Squirtle.new
