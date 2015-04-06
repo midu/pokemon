@@ -4,7 +4,7 @@
 
 # Exercise
 
-Implement a Pokémon game with three different Pokémons:
+Implement a Pokémon game with three different Pokémon:
 
 | Pokémon | ![](http://www.pokemon-online.eu/images/pokemon/x-y/animated/001.gif) |  ![](http://www.pokemon-online.eu/images/pokemon/x-y/animated/004.gif) | ![](http://www.pokemon-online.eu/images/pokemon/x-y/animated/007.gif) |
 | ---     | ---       | ---        | ---      |
@@ -25,9 +25,9 @@ Implement a Pokémon game with three different Pokémons:
 | **Water** | 1x    | 2x   | 1x    |
 | **Fire**  | 2x    | 1x   | 1x    |
 
-- Fire Pokémons do double damage to Plant Pokémons
-- Water Pokémons do double to Fire Pokémons
-- Plant Pokémons do double damage on Water Pokémons
+- Fire Pokémon do double damage to Plant Pokémon
+- Water Pokémon do double to Fire Pokémon
+- Plant Pokémon do double damage on Water Pokémon
 
 ## Game rules
 
