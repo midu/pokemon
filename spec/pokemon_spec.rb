@@ -26,7 +26,7 @@ describe Squirtle do
       end
     end
 
-    context "against a plant type" do
+    context "against a grass type" do
       let(:bulbasaur) { Bulbasaur.new }
 
       before do
@@ -94,7 +94,7 @@ describe Bulbasaur do
       end
     end
 
-    context "against a plant type" do
+    context "against a grass type" do
       let(:other_bulbasaur) { Bulbasaur.new }
 
       before do
@@ -162,7 +162,7 @@ describe Charmander do
       end
     end
 
-    context "against a plant type" do
+    context "against a grass type" do
       let(:bulbasaur) { Bulbasaur.new }
 
       before do

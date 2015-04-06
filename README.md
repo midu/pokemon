@@ -9,7 +9,7 @@ Implement a Pokémon game with three different Pokémon:
 | Pokémon | ![](http://www.pokemon-online.eu/images/pokemon/x-y/animated/001.gif) |  ![](http://www.pokemon-online.eu/images/pokemon/x-y/animated/004.gif) | ![](http://www.pokemon-online.eu/images/pokemon/x-y/animated/007.gif) |
 | ---     | ---       | ---        | ---      |
 | **Name** | Bulbasaur | Charmander | Squirtle |
-| **Type**    | Plant | Fire | Water |
+| **Type**    | Grass | Fire | Water |
 | **HP** | 100 | 100 | 100 | 100 |
 | **Strength** | 10 | 10 | 10 | 10 |
 
@@ -19,15 +19,15 @@ Implement a Pokémon game with three different Pokémon:
 
 ### Pokemon damage chart
 
-| type  | **Plant** | **Fire** | **Water** |
+| type  | **Grass** | **Fire** | **Water** |
 | :--- | :---:  | :---:  | :---:   |
-| **Plant** | 1x    | 1x   | 2x    |
+| **Grass** | 1x    | 1x   | 2x    |
 | **Water** | 1x    | 2x   | 1x    |
 | **Fire**  | 2x    | 1x   | 1x    |
 
-- Fire Pokémon do double damage to Plant Pokémon
+- Fire Pokémon do double damage to Grass Pokémon
 - Water Pokémon do double to Fire Pokémon
-- Plant Pokémon do double damage on Water Pokémon
+- Grass Pokémon do double damage on Water Pokémon
 
 ## Game rules
 
